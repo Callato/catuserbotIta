@@ -128,7 +128,7 @@ async def on_afk(event):  # sourcery no-metrics
                 )
             elif AFK_.reason:
                 message_to_reply = (
-                    f"`Al momento sono offline, ti prego di contattarmi quando tornerò online, Non spammare. grazie.\n\n Sono offline da: {endtime}\nMotivazione : {AFK_.reason}`"
+                    f"`Al momento sono offline, ti prego di contattarmi quando tornerò online, non spammare. grazie.\n\n Sono offline da: {endtime}\nMotivazione : {AFK_.reason}`"
                 )
             else:
                 message_to_reply = f"`Al momento sono offline, ti prego di contattarmi quando tornerò online, Non spammare. grazie  .\n\n Sono offline da: {endtime}\nMotivazione : Not Mentioned ( ಠ ʖ̯ ಠ)`"
